@@ -1,7 +1,7 @@
-export default function appendToEachArrayValue(array, appendString) {
-  for (const value of array) {
-    array[array.indexOf(value)] = appendString + value;
+export default function appendToEacharrValue(arr, appendString) {
+  for (const value of arr) {
+    arr[arr.indexOf(value)] = appendString + value;
   }
 
-  return array;
+  return arr;
 }
