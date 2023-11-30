@@ -5,7 +5,7 @@ class Airport {
   }
 
   tostring() {
-    return `[${this._code}]`;
+    return this._code;
   }
 }
 
