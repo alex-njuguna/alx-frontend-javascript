@@ -1,4 +1,4 @@
-export default function updateUniqueItems(items) {
+function updateUniqueItems(items) {
   if (!(items instanceof Map)) {
     throw new Error('Cannot process');
   }
@@ -9,3 +9,5 @@ export default function updateUniqueItems(items) {
   }
   return items;
 }
+
+export default updateUniqueItems;

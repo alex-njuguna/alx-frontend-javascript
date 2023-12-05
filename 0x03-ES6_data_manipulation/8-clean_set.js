@@ -1,4 +1,4 @@
-export default function cleanSet(set, startString) {
+function cleanSet(set, startString) {
   if (!startString || !startString.length || typeof startString !== 'string') return '';
 
   let finalString = '';
@@ -8,3 +8,5 @@ export default function cleanSet(set, startString) {
 
   return finalString.slice(0, finalString.length - 1);
 }
+
+export default cleanSet;
