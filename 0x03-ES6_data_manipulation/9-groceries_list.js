@@ -1,4 +1,4 @@
-export default function groceriesList() {
+function groceriesList() {
   return new Map([
     ['Apples', 10],
     ['Tomatoes', 10],
@@ -7,3 +7,5 @@ export default function groceriesList() {
     ['Banana', 5],
   ]);
 }
+
+export default groceriesList
